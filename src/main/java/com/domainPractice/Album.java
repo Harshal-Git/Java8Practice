@@ -3,6 +3,7 @@
  */
 package com.domainPractice;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -21,6 +22,13 @@ public class Album {
 	// A list of artists who helped create the music on this album
 	private List<Artist> musicians;
 
+	//
+	public Album() {
+		this.name= null;
+		this.tracks= new ArrayList<>();
+		this.musicians= new ArrayList<>();
+	}
+	
 	public String getName() {
 		return name;
 	}
