@@ -10,6 +10,5 @@ package com.defaultStaticMethods;
 public class DefaultableImpl implements Defaultable {
 
 	public DefaultableImpl() {
-		System.out.println("DefaultableImpl constructor called...");
 	}
 }

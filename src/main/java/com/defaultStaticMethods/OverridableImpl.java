@@ -10,12 +10,11 @@ package com.defaultStaticMethods;
 public class OverridableImpl implements Defaultable {
 
 	public OverridableImpl() {
-		System.out.println("OverridableImpl constructor called...");
 	}
 	
 	@Override
 	public void defaultMethod() {
 		//Defaultable.super.nonImplementableMethod();
-		System.out.println("defaultMethod() called from overridden definition.");
+		System.out.println("defaultMethod() from "+this.getClass().getSimpleName());
 	}
 }

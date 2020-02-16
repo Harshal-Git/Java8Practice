@@ -5,6 +5,7 @@ package com.domainPractice;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 import java.util.function.Function;
 import java.util.function.Predicate;
@@ -25,7 +26,7 @@ public class Exercise1 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-
+		
 		// function to add up numbers
 		System.out.println("Sum of numbers: "+addUp(Arrays.asList(1, 3, 5, 7, 9, 2, 4, 6, 8, 10).stream()));
 		

@@ -13,7 +13,7 @@ public interface Defaultable {
 
 	// default method definition at interface level
 	default void defaultMethod() {
-		System.out.println("defaultMethod() called from interface definition.");
+		System.out.println("defaultMethod() from "+this.getClass().getSimpleName());
 	}
 
 	// static method to accept respective class definition in form of supplier - and provide the result from given fuction
