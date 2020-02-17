@@ -1,1 +1,0 @@
-This example is just to show how to use "default" and "static" methods for an interface and how to call them with different cases.
