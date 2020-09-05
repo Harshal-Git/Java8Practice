@@ -26,7 +26,7 @@ public class Demo1 {
 		// via interface reference and class object
 		Square1 implObj2 = new Impl1();
 		System.out.println("square(15)= "+implObj2.square(15));
-		
+
 		// via anonymous implementation
 		Square1 intObj1 = new Square1() {
 			@Override
