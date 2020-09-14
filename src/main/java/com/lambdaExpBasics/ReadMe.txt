@@ -17,7 +17,12 @@ Important channels to follow:
 -> Lecture 2
 https://www.youtube.com/watch?v=bnuQpz-DK3w&list=PLd3UqWTnYXOmNgHwz1KB2htESdT70O6M6&index=3
 
--> on-going (Lecture 4- Anonymous Inner Class vs Lambda Expressions || Session - 4 :: 28 minutes) 
+-> on-going (Session 6 : start )
 https://www.youtube.com/watch?v=Tm2BpKlv1rU&list=PLd3UqWTnYXOlrKZWFTbgguqNRA_uVyeBl
 
+-> next
 https://www.youtube.com/playlist?list=PLL8woMHwr36HQhhPPdV_T8rigbuywMpD7
+https://www.youtube.com/watch?v=1OpAgZvYXLQ&t=2s
+
+######
+

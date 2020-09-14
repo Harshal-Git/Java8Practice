@@ -23,6 +23,8 @@ public class ThreadDemo2 {
 			}
 		};
 
+		System.out.println("Runnable class: "+runnableInst.getClass().getCanonicalName());
+		
 		// Child thread object t1
 		Thread t1 = new Thread(runnableInst);
 		t1.start();

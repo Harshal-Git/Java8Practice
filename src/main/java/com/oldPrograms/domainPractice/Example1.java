@@ -55,7 +55,7 @@ public class Example1 {
 																		 }).
 													count();*/
 
-		// Test 1: to understand lazy initialization  stream is ready but it won't print the sysout statement
+		// Test1 1: to understand lazy initialization  stream is ready but it won't print the sysout statement
 		allArtists.stream().
 									filter(artist -> {
 															System.out.println("filtering artists...");
