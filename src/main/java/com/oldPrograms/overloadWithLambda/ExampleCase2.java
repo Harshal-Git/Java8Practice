@@ -25,14 +25,14 @@ public class ExampleCase2 {
 		 * solutions: type case into either of the type of interface
 		 */
 		overloadMethod((Predicate<Integer>) (x -> true));
-		overloadMethod((IntPredicate) (x -> true));
+		overloadMethod((IntPredicateIn) (x -> true));
 	}
 
 	private static void overloadMethod(Predicate<Integer> predicate) {
 		System.out.println("Predicate type...");
 	}
 	
-	private static void overloadMethod(IntPredicate intPredicate) {
-		System.out.println("IntPredicate type...");
+	private static void overloadMethod(IntPredicateIn intPredicateIn) {
+		System.out.println("IntPredicateIn type...");
 	}
 }
