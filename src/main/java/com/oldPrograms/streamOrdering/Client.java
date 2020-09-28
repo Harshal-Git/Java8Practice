@@ -28,7 +28,7 @@ public class Client {
 	}
 
 	/**
-	 * Demo1 for set ordering via stream
+	 * Demo05 for set ordering via stream
 	 * 
 	 * -> here results are not always false / true : keeps changing
 	 */
@@ -50,7 +50,7 @@ public class Client {
 	}
 
 	/**
-	 * Demo1 for list ordering via stream
+	 * Demo05 for list ordering via stream
 	 */
 	private static void listOrderDemo() {
 		

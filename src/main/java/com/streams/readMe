@@ -1,0 +1,47 @@
+Methods / examples important to understand:
+
+			-- Demo01 --
+stream()
+filter()
+map()
+
+
+		-- Demo02 / Demo03 -- 
+collect() [common]
+count()
+sorted() -> natural sorting order
+sorted(Comparator) -> customized sorting order
+
+
+		-- Demo04 --
+min()
+max()
+
+		Note: The returned values are considered based on the sorting. min() will be always first element & max() will be always last element in the sorted results.   
+			If we change the sorting preference, return values might change. These methods expects Comparator. 
+
+			
+		-- Demo05 / Demo06 --
+forEach() 
+		Note: Example for List & Map
+		
+
+		-- Demo07 --
+toArray() 
+			Note: 2 versions of this method are present. First returns object array. Second accepts an "IntFunction" argument. (a constructor reference)
+of()
+			Array to stream conversion can be done with this.
+			
+
+		-- Demo08 / Demo09 / Demo13 --
+reduce() 
+			
+			
+#################
+
+Some additional types of Streams:
+
+		-- Demo10 / Demo11 / Demo12  --
+IntStream, sum(), average() and other related methods
+
+

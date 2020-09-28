@@ -11,11 +11,28 @@ Functional interface behavior w.r.t inheritance:
 
 #####
 
--> next
-https://www.youtube.com/playlist?list=PLL8woMHwr36HQhhPPdV_T8rigbuywMpD7
+############## watched #############
 
--- venkat
+-- function / lambda / functional interfaces	(durga)
+https://www.youtube.com/watch?v=Tm2BpKlv1rU&list=PLd3UqWTnYXOlrKZWFTbgguqNRA_uVyeBl
+
+-- streams (Durga)
+https://www.youtube.com/watch?v=WWXPQUgXagk 	
+https://www.youtube.com/watch?v=5duxFiseLRE 
+
+#######pending#################
+
+-- lambda & streams (Venkat)
 https://www.youtube.com/watch?v=1OpAgZvYXLQ&t=2s
 
-######
+############################
+
+best exercises:
+
+http://zetcode.com/all/#java
+	http://zetcode.com/java/streamfilter/
+	http://zetcode.com/java/streamreduce/
+	http://zetcode.com/java/streammap/
+	
+https://mkyong.com/tutorials/java-8-tutorials/
 
