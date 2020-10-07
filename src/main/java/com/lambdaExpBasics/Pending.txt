@@ -20,14 +20,20 @@ https://www.youtube.com/watch?v=Tm2BpKlv1rU&list=PLd3UqWTnYXOlrKZWFTbgguqNRA_uVy
 https://www.youtube.com/watch?v=WWXPQUgXagk 	
 https://www.youtube.com/watch?v=5duxFiseLRE 
 
+-- lambda & streams (Venkat) 
+https://www.youtube.com/watch?v=1OpAgZvYXLQ&t=2s
+
 #######pending#################
 
--- lambda & streams (Venkat)
-https://www.youtube.com/watch?v=1OpAgZvYXLQ&t=2s
+-- point#11
+https://www.baeldung.com/java-optional
+
+-- Collectors (Venkat) (Start)
+https://www.youtube.com/watch?v=pGroX3gmeP8
 
 ############################
 
-best exercises:
+best stream exercises:
 
 http://zetcode.com/all/#java
 	http://zetcode.com/java/streamfilter/
@@ -35,4 +41,3 @@ http://zetcode.com/all/#java
 	http://zetcode.com/java/streammap/
 	
 https://mkyong.com/tutorials/java-8-tutorials/
-

@@ -37,6 +37,10 @@ of()
 reduce() 
 			
 			
+		-- Demo14/Demo15 --
+Collectors.toXX() - 
+			Some collectors class methods
+			
 #################
 
 Some additional types of Streams:
