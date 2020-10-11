@@ -11,7 +11,7 @@ Functional interface behavior w.r.t inheritance:
 
 #####
 
-############## watched #############
+############## completed #############
 
 -- function / lambda / functional interfaces	(durga)
 https://www.youtube.com/watch?v=Tm2BpKlv1rU&list=PLd3UqWTnYXOlrKZWFTbgguqNRA_uVyeBl
@@ -23,13 +23,20 @@ https://www.youtube.com/watch?v=5duxFiseLRE
 -- lambda & streams (Venkat) 
 https://www.youtube.com/watch?v=1OpAgZvYXLQ&t=2s
 
-#######pending#################
-
--- point#11
+-- point#11  
 https://www.baeldung.com/java-optional
 
--- Collectors (Venkat) (Start)
+-- Collectors (Venkat) 
 https://www.youtube.com/watch?v=pGroX3gmeP8
+
+#######pending#################
+
+- -start
+https://www.journaldev.com/2389/java-8-features-with-examples
+
+https://www.javatpoint.com/java-8-features
+
+https://www.baeldung.com/java-8-new-features
 
 ############################
 

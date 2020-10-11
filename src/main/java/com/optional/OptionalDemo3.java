@@ -45,11 +45,11 @@ public class OptionalDemo3 {
 	 */
 	private static List<Modem> getModems() {
 		List<Modem> dataList = new ArrayList<>();
-		dataList.add(new Modem(1050.0));
-		dataList.add(new Modem(900.0));
-		dataList.add(new Modem(null));
-		dataList.add(new Modem(1502.5));
-		dataList.add(new Modem(1499.5));
+		dataList.add(new Modem(1050.0, 1024.0));
+		dataList.add(new Modem(900.0, 512.0));
+		dataList.add(new Modem(null, null));
+		dataList.add(new Modem(1502.5, 2048.0));
+		dataList.add(new Modem(1499.5, 2048.0));
 		dataList.add(null);
 		return dataList;
 	}
@@ -59,8 +59,9 @@ public class OptionalDemo3 {
 	 */
 	public static boolean priceIsInRange1(Modem modem) {
 		boolean isInRange = false;
-		if (modem != null  && modem.getPrice() != null 
-				&& (modem.getPrice() >= 1000.0 && modem.getPrice() <= 1500.0)) {
+		if (modem != null  && modem.getPrice() != null && modem.getMaxSpeed() != null
+				&& (modem.getPrice() >= 1000.0 && modem.getPrice() <= 1500.0) 
+				&& (modem.getMaxSpeed() > 512.0)) {
 			isInRange = true;
 		}
 		return isInRange;
@@ -70,24 +71,35 @@ public class OptionalDemo3 {
 	 * price check method - with Optional 
 	 */
 	public static boolean priceIsInRange2(Modem modem) {
-		boolean isPresent= Optional.ofNullable(modem).				// will adjust if the modem object is NULL : similar to (modem != null)
+		
+		boolean isInRange= Optional.ofNullable(modem).			// will adjust if the modem object is NULL : similar to (modem != null)
 										map(mdm -> mdm.getPrice()).		// map() to reduce the complexity in filter method
 										filter(price -> price >= 1000.0).
 										filter(price -> price <= 1500.0).
 										isPresent();									// whether element is present in Optional object OR not
-		return isPresent;
+		
+		boolean isValidSpeed = Optional.ofNullable(modem).
+											map(mdm -> mdm.getMaxSpeed()).
+											filter(spd -> spd > 512.0).
+											isPresent();
+		
+		return (isInRange && isValidSpeed);
 	}
 }
 
 class Modem {
 
 	private Double price;
+	
+	// Max speed in MBPS
+	private Double maxSpeed;
 
 	/**
 	 * parameterized constructor 
 	 */
-	public Modem(Double price) {
+	public Modem(Double price, Double speed) {
 		setPrice(price);
+		setMaxSpeed(speed);
 	}
 
 	/**
@@ -103,12 +115,26 @@ class Modem {
 	private void setPrice(Double price) {
 		this.price = price;
 	}
+	
+	/**
+	 * @return the maxSpeed in MBPS
+	 */
+	public Double getMaxSpeed() {
+		return maxSpeed;
+	}
+
+	/**
+	 * @param maxSpeed the maxSpeed to set
+	 */
+	private void setMaxSpeed(Double maxSpeed) {
+		this.maxSpeed = maxSpeed;
+	}
 
 	/* (non-Javadoc)
 	 * @see java.lang.Object#toString()
 	 */
 	@Override
 	public String toString() {
-		return "Modem -> price = "+getPrice();
+		return "Modem -> price = "+getPrice()+" & Max speed: "+getMaxSpeed()+" mbps";
 	}
 }
