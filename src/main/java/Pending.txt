@@ -9,8 +9,6 @@ Functional interface behavior w.r.t inheritance:
 3. Interface method override rules are maintained in functional interface inheritance. So in such case, child cannot provide a new interface method 
 		(except static / default) if parent has already an public abstract method. Though it can override parent interface method. 
 
-#####
-
 ############## completed #############
 
 -- function / lambda / functional interfaces	(durga)
@@ -29,14 +27,6 @@ https://www.baeldung.com/java-optional
 -- Collectors (Venkat) 
 https://www.youtube.com/watch?v=pGroX3gmeP8
 
-#######pending#################
-
-- -start
-https://www.journaldev.com/2389/java-8-features-with-examples
-
-https://www.javatpoint.com/java-8-features
-
-https://www.baeldung.com/java-8-new-features
 
 ############################
 

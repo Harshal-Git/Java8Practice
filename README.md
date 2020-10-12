@@ -3,11 +3,6 @@ java 8 practice
 
 -> Practice programs for Java 8 
 
--> Includes some examples from the book: Java 8 Lambdas by: Richard Warburton
-OR refer to the main Gitrepo : https://github.com/RichardWarburton/java-8-lambdas-exercises
-
--> Some are done for practice and from other reference.
-
 -> Based on some practice - best way to write lambda expression for any functional interface I found as
 
 	1. Separate problem statement in different parts and identify what all methods are needed for stream operation.
@@ -19,7 +14,7 @@ OR refer to the main Gitrepo : https://github.com/RichardWarburton/java-8-lambda
 
 Project specifications:
 
--> main() methods to execute the code are provided in "*Client.java" class.
+-> main() methods to execute the code are provided in "*Client.java / Demo*.java" class.
 
 -> Maven: Maven structure built with version-3.6.3
 
