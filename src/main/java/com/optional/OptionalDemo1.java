@@ -28,14 +28,14 @@ public class OptionalDemo1 {
 		String data1 =  "optional";
 		Optional<String> ob1 = Optional.of(data1);
 		System.out.println("ob1.isPresent()? "+ob1.isPresent());
-		System.out.println("ob1.isEmpty()? "+ob1.isEmpty());
+		//System.out.println("ob1.isEmpty()? "+ob1.isEmpty());
 		ob1.ifPresent(data -> System.out.println("Length: "+data.length()+"\n"));
 		
 		// if data is Not null, of() & ofNullable() will give same result
 		String data2 = "optiona 1";
 		Optional<String> ob2 = Optional.ofNullable(data2);
 		System.out.println("ob2.isPresent()? "+ob2.isPresent());
-		System.out.println("ob2.isEmpty()? "+ob2.isEmpty());
+		//System.out.println("ob2.isEmpty()? "+ob2.isEmpty());
 		ob2.ifPresent(data -> System.out.println("Length: "+data.length()+"\n"));
 		
 		/*
@@ -47,7 +47,7 @@ public class OptionalDemo1 {
 		String data3 = null;
 		Optional<String> ob3 = Optional.ofNullable(data3);
 		System.out.println("ob3.isPresent()? "+ob3.isPresent());
-		System.out.println("ob3.isEmpty()? "+ob3.isEmpty());
+		//System.out.println("ob3.isEmpty()? "+ob3.isEmpty());
 		ob3.ifPresentOrElse(data -> System.out.println("Length: "+data.length()+"\n"), 
 				() -> System.out.println("No data present."));
 	}
