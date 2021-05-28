@@ -15,7 +15,3 @@ java 8 practice
 Project specifications:
 
 -> main() methods to execute the code are provided in "*Client.java / Demo*.java" class.
-
--> Maven: Maven structure built with version-3.6.3
-
--> Java: Project configured for Java 8. Expected java version (8 and above) can be updated in pom.xml file.
